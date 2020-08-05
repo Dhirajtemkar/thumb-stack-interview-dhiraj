@@ -1,3 +1,10 @@
+
+All the components are mounted on the App.js file only run npm start to See the submission.
+preffered questions were:
+-> Tic-tac-toe
+-> Snake's and Ladder board
+-> list manipulations
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
