@@ -1,0 +1,10 @@
+.Snakes__main {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.Sankes__row > button {
+    border: 2px solid red;
+    transition: 0.35s ease;
+}
+

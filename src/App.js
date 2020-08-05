@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './index.css'
+import TicTak from './components/Tic-tac-toe/TicTak';
+import Snakes from './components/Snakes/Snakes';
+import ListProb from './components/ListProb/ListProb';
+import TwoZero from './components/2048/TwoZero';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <nav>
+      <div className="App__Logo"><h2>Dhiraj Temkar</h2><p>Atharva College of Engineering</p></div>
+      <div className="App__navInfo">
+        Reference- Mr. Pankaj Kunekar, Application: Front-end React.js Intern
+      </div>
+    </nav>
+      <div className="App__contains">
+        <div className="App__Elements">
+          <h3>Q) Make Tic-Tac-Toe</h3>
+          <TicTak />
+        </div>
+        <div className="App__Elements">
+          <h3>Q) Make Snakes and Ladder Board</h3>
+          <Snakes />
+        </div>
+        <div className="App__Elements">
+          <h3>Q) Make List Manipulation</h3>
+          <ListProb />
+        </div>
+      </div>
+      <TwoZero />
     </div>
   );
 }

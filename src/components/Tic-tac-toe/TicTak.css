@@ -1,0 +1,74 @@
+
+.Board__complete {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Square__single {
+    width: 3rem;
+    height: 3rem;
+    background: #eeeeee;
+    border: 2px solid #24a19c;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Square__single:hover {
+    background: #cccccc;
+}
+.TicTak__row {
+    display: flex;
+}
+.status {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.TicTak {
+    width: 15rem;
+    padding: 2rem;
+    margin: 1rem;
+    background: #24a19c;
+    max-height: 26rem;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.9);
+    border-radius: 7px;
+}
+.TicTak h1 {
+    text-align: center;
+}
+.TicTak > button {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.TicTak > button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+.blinker {
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    25% {
+        color: white;
+    }
+    50% {
+        color: #24a19c;
+    }
+    75% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}

@@ -1,0 +1,69 @@
+
+.ListProb {
+    margin: 1rem;
+    width: 20rem;
+    background: #eeeeee;
+}
+.ListProb form {
+    /* width: 100%; */
+    height: 4rem;
+    /* border: 1px solid black; */
+    background: #24a19c;
+    display: flex;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+form TextField {
+    flex: 1;
+    color: white !important;
+    margin-left: 0.5rem !important;
+}
+form Button {
+    flex: 0;
+
+}
+.ListProb__A {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 0.3rem;
+}
+.ListProb__A h3, .ListProb__B h3 {
+    margin: none;
+    line-height: 20px;
+    text-align: center;
+}
+.ListProb__B {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 0.1rem 0.3rem;
+}
+.ListProb__list {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    box-shadow: 0px 4px 7px rgba(128, 128, 128, 0.3);
+    color: black;
+    /* background: #00bcd4; */
+    /* border: 2px solid black; */
+}
+.ListProb__list p {
+    flex: 1;
+    padding-left: 7px;
+    text-align: justify;
+    font-size: 16.5px;
+    font-weight: 600;
+}
+.ListProb__list IconButton {
+    flex: 0 !important;
+    width: 2rem;
+}
+.apply {
+    background: green;
+}
